@@ -30,7 +30,7 @@ F.A.Q.
 2. Does this affect my SEO? - No! We overlay the content, we don't block it off. You might need to set your meta description on all pages so that search engines don't pick the disclaimer up as an excerpt instead.
 3. And does this work on the Bigcommerce mobile theme? - Not by default. Repeat the same steps on the Mobile theme. More details on how to customize that here- https://support.bigcommerce.com/questions/1725/How+do+I+customize+my+mobile+theme%3F
 4. How awesome are you guys? - Very awesome!
-5. Can I see how it fools first? - Certainly! Here goes - http://screencast.com/t/absSvh399c
+5. Can I see how it looks first? - Certainly! Here goes - http://screencast.com/t/absSvh399c
 
 ####Need help installing, customizing design or troubleshooting?
 
