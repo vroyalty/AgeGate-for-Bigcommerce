@@ -1,4 +1,4 @@
-//2013 © Rotesource, Inc. https://rotesource.com/bigcommerce-agegate (Goke Pelemo - http://goke.me)
+//2013 © Rotesource, Inc. http://rotesource.com/bigcommerce-agegate (Goke Pelemo - http://goke.me)
 function readCookie(name) {
 	var nameEQ = name + "=";
 	var ca = document.cookie.split(';');
