@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Agegate For Bigcommerce by Rotesource</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>Agegate For Bigcommerce</h1>
+        <p>Intercept visitors and verify their age before enabling them to view age restricted content on your Bigcommerce store.</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/Rotesource/AgeGate-for-Bigcommerce" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/Rotesource/AgeGate-for-Bigcommerce/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/Rotesource/AgeGate-for-Bigcommerce/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>
+<a name="agegate" class="anchor" href="#agegate"><span class="octicon octicon-link"></span></a>AgeGate</h1>
+
+<p><strong>AgeGate</strong> is a set of code snippets that enable Bigcommerce store owners with age restricted content to intercept visitors and verify their age before enabling them to view content on the store.</p>
+
+<h2>
+<a name="how-it-works" class="anchor" href="#how-it-works"><span class="octicon octicon-link"></span></a>How it Works</h2>
+
+<ol>
+<li>We intercept them before they view your website, present a disclaimer and ask for their age.</li>
+<li>If they are over the configured age, we save a cookie on their browser that enables them browse through your website. If they are under the configured age, we redirect them to a page or website you specify.
+<em>Fun Fact: The cookie is named "Bouncer". If you inspect your cookies and see "Bouncer", say hi.</em>
+</li>
+</ol><h2>
+<a name="things-you-can-configure" class="anchor" href="#things-you-can-configure"><span class="octicon octicon-link"></span></a>Things you can Configure</h2>
+
+<ol>
+<li>The disclaimer</li>
+<li>The intercepting page (a.k.a. 'gate')</li>
+<li>The minimum age allowed to view the website</li>
+<li>Age of the appended browser cookie (How long they can view your website without verifying their age after they have verified it the first time)</li>
+<li>The page or website they are redirected to if they are underage (a.k.a. 'enforcer') - Redirects to <a href="http://imgflip.com/i/4nmp0">http://imgflip.com/i/4nmp0</a> by default</li>
+</ol><h2>
+<a name="how-to-install" class="anchor" href="#how-to-install"><span class="octicon octicon-link"></span></a>How to Install</h2>
+
+<ol>
+<li>Upload all the files in this repo to your /content directory via WebDAV (<a href="https://support.bigcommerce.com/questions/1513/How+do+I+connect+to+WebDAV%3F">https://support.bigcommerce.com/questions/1513/How+do+I+connect+to+WebDAV%3F</a>)</li>
+<li>Edit 1-gate.js and 2-enforcer.js with your own details. The code is decently commented.</li>
+<li>Append <code>&lt;script type="text/javascript" src="/content/1-gate.js"&gt;&lt;/script&gt;</code> right before <code>&lt;/head&gt;</code> in the HTMLHead.html panel</li>
+<li>Append <code>&lt;script type="text/javascript" src="/content/2-enforcer.js"&gt;&lt;/script&gt;</code> to the end of the Footer.html panel</li>
+</ol><h2>
+<a name="faq" class="anchor" href="#faq"><span class="octicon octicon-link"></span></a>F.A.Q.</h2>
+
+<ol>
+<li>Does this work if Javascript is disabled? - Yes! We use a <code>&lt;noscript&gt;</code> tag to block them off and tell them to enable Javascript.</li>
+<li>Does this affect my SEO? - No! We overlay the content, we don't block it off. You might need to set your meta description on all pages so that search engines don't pick the disclaimer up as an excerpt instead.</li>
+<li>And does this work on the Bigcommerce mobile theme? - Not by default. Repeat the same steps on the Mobile theme. More details on how to customize that here- <a href="https://support.bigcommerce.com/questions/1725/How+do+I+customize+my+mobile+theme%3F">https://support.bigcommerce.com/questions/1725/How+do+I+customize+my+mobile+theme%3F</a>
+</li>
+<li>How awesome are you guys? - Very awesome!</li>
+<li>Can I see how it looks first? - Certainly! Here goes - <a href="http://screencast.com/t/absSvh399c">http://screencast.com/t/absSvh399c</a>
+</li>
+</ol><h3>
+<a name="need-help-installing-customizing-design-or-troubleshooting" class="anchor" href="#need-help-installing-customizing-design-or-troubleshooting"><span class="octicon octicon-link"></span></a>Need help installing, customizing design or troubleshooting?</h3>
+
+<p>Contact us at Rotesource (<a href="https://rotesource.com">https://rotesource.com</a>). We'll help out for a little fee. We hope you like it. Please, feel free to contact us if you have any questions/suggestions or find an issue.</p>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/Rotesource">Rotesource</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-42227250-8");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
