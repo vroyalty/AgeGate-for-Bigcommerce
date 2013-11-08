@@ -19,8 +19,8 @@ Things you can Configure
 
 How to Install
 -
-1. Upload all the folders in this repo to your /content directory via WebDAV (https://support.bigcommerce.com/questions/1513/How+do+I+connect+to+WebDAV%3F)
-2. Edit 1.gate.js and 2-enforcer.js with your own details. The code is decently commented.
+1. Upload all the files in this repo to your /content directory via WebDAV (https://support.bigcommerce.com/questions/1513/How+do+I+connect+to+WebDAV%3F)
+2. Edit 1-gate.js and 2-enforcer.js with your own details. The code is decently commented.
 2. Append `<script type="text/javascript" src="/content/1-gate.js"></script>` right before `</head>` in the HTMLHead.html panel
 3. Append `<script type="text/javascript" src="/content/2-enforcer.js"></script>` to the end of Footer.html panel
 
