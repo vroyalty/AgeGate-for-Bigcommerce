@@ -6,7 +6,7 @@ AgeGate
 How it Works
 --------
 
-1. We intercept them before they view your website, view a disclaimer and ask for their age.
+1. We intercept them before they view your website, present a disclaimer and ask for their age.
 2. If they are over the configured age, we save a cookie on their browser that enables them browse through your website. If they are under the configured age, we redirect them to a page or website you specify.
 
 Things you can Configure
