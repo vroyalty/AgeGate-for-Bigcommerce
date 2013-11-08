@@ -1,4 +1,4 @@
-//2013 © Rotesource, Inc. https://rotesource.com/bigcommerce-agegate (Goke Pelemo - http://goke.me)
+//2013 © Rotesource, Inc. http://rotesource.com/bigcommerce-agegate (Goke Pelemo - http://goke.me)
  function ageCheck() { 
 //Minimum age allowed
      var min_age = 19;
