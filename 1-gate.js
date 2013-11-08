@@ -15,7 +15,7 @@ if (goke) {
      document.write("<style> #AgeGate { visibility:hidden; }</style>");
 };
 
-//2013 © Rotesource, Inc. https://rotesource.com/bigcommerce-agegate (Goke Pelemo - http://goke.me)
+//2013 © Rotesource, Inc. http://rotesource.com/bigcommerce-agegate (Goke Pelemo - http://goke.me)
 if (goke == null || goke=='') {
 	document.write("<link rel=\"stylesheet\" href=\"http://yui.yahooapis.com/pure/0.3.0/pure-min.css\"\/>");
 	document.write("<div id=\"AgeGate\" class=\"pure-form\" style=\"position:absolute; top: 5px; left: 0px; z-index: 3000; ");
