@@ -11,7 +11,7 @@
      
      if ((today.getTime() - theirDate.getTime()) < 0) {
 //Page underage visitors will be redirected to
-        window.location = 'http://imgflip.com/i/4nmp0';
+        window.location = 'https://www.google.com/search?q=baby+kittens&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjJtpTZoYrNAhVDK1IKHRiNBA4Q_AUIBygB&biw=1034&bih=472';
 //Page underage visitors will be redirected to - END
      } else {
          var days = 4; //Number of days before age validation expires on the computer used
