@@ -1,7 +1,7 @@
 //2013 © Rotesource, Inc. http://rotesource.com/bigcommerce-agegate (Goke Pelemo - http://goke.me)
  function ageCheck() { 
 //Minimum age allowed
-     var min_age = 19;
+     var min_age = 18;
 //Minimum age allowed - END
      var year = parseInt(document.getElementById('byear').value);
      var month = parseInt(document.getElementById('bmonth').value);
