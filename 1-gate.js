@@ -23,7 +23,8 @@ if (goke == null || goke=='') {
 //The Logo Image TIP: Its way cooler to use one with a transparent background.
 	document.write("    <img src=\"http://img.rotesource.com/700x300.png\"\/> <br\/><br\/>");
 //The Logo Image - END
-    document.write("    <h3 style=\"text-align:center;width:500px;margin:0 auto;\">WARNING!!! THIS SITE IS 18+: THIS SITE CONTAINS MATERIAL OF AN ADULT NATURE AND BY PROCEEDING YOU HAVE ACKNOWLEDGED YOUR DESIRE TO VIEW SUCH CONTENT AND VERIFY THAT YOU ARE OF LEGAL AGE TO DO SO.<\/h3>");
+    document.write("    <h3 style=\"text-align:center;width:500px;margin:0 auto;\">
+     This website is strictly intended for adults at least eighteen (18) years or older. By proceeding, you are verifying that you at least 18 years of age. <\/h3>");
 //The Disclaimer
 	document.write("    <p style=\"text-align: center;\">SELECT YOUR DATE OF BIRTH BELOW<\/p>");
 //The Disclaimer - END
